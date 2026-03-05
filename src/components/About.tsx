@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const stats = [
   { value: "4.8★", label: "Google Reviews" },
-  { value: "1.443+", label: "Reseñas" },
+  { value: "1.467+", label: "Reseñas" },
   { value: "3", label: "Locales" },
 ];
 
