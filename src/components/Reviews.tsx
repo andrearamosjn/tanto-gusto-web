@@ -9,7 +9,7 @@ const locationRatings = [
     name: "Castelldefels",
     rating: 4.8,
     count: 113,
-    reviewsUrl: "https://www.google.com/maps/place/Tanto+Gusto+(comida+con+amor)/@41.2802,1.9762,17z/data=!4m8!3m7!1s0x12a49d3b7b5353a9:0xd75da5725a0bd4f3!8m2!3d41.2802!4d1.9762!9m1!1b1!16s%2Fg%2F11w9l30bkz",
+    reviewsUrl: "https://www.google.com/maps/place/Tanto+Gusto+(comida+con+amor)/@41.2787165,1.977029,17z/data=!4m8!3m7!1s0x12a483486e55a435:0x90c9fe97d808db94!8m2!3d41.2787165!4d1.977029!9m1!1b1!16s%2Fg%2F11w9l30bkz",
   },
   {
     name: "Vielha",
