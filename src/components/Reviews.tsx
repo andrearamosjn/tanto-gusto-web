@@ -1,3 +1,14 @@
+const locationRatings = [
+  { name: "Sitges", rating: 4.8, count: 910 },
+  { name: "Castelldefels", rating: 4.8, count: 112 },
+  { name: "Vielha", rating: 4.6, count: 421 },
+];
+
+const totalReviews = locationRatings.reduce((sum, l) => sum + l.count, 0);
+const avgRating = (
+  locationRatings.reduce((sum, l) => sum + l.rating * l.count, 0) / totalReviews
+).toFixed(1);
+
 const reviews = [
   {
     author: "María G.",
@@ -79,7 +90,7 @@ export default function Reviews() {
           >
             Lo que dicen nuestros clientes
           </h2>
-          <div className="flex items-center gap-3 mt-1">
+          <div className="flex flex-col items-center gap-3 mt-1">
             <div className="flex items-center gap-1.5">
               <svg className="h-7 w-7" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -99,12 +110,20 @@ export default function Reviews() {
                   fill="#EA4335"
                 />
               </svg>
-              <span className="text-2xl font-bold text-text-primary">4.9</span>
-              <Stars count={5} />
+              <span className="text-2xl font-bold text-text-primary">{avgRating}</span>
+              <Stars count={Math.round(Number(avgRating))} />
+              <span className="text-sm text-text-tertiary">
+                {totalReviews.toLocaleString("es-ES")}+ reseñas en Google
+              </span>
             </div>
-            <span className="text-sm text-text-tertiary">
-              677+ reseñas en Google
-            </span>
+            <div className="flex gap-6">
+              {locationRatings.map((loc) => (
+                <div key={loc.name} className="flex items-center gap-1.5 text-xs text-text-tertiary">
+                  <span className="font-semibold text-text-secondary">{loc.name}</span>
+                  <span className="text-star">★</span> {loc.rating} ({loc.count})
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
