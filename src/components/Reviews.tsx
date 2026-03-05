@@ -3,19 +3,19 @@ const locationRatings = [
     name: "Sitges",
     rating: 4.8,
     count: 933,
-    reviewsUrl: "https://www.google.com/maps/place/Tanto+Gusto+(comida+con+amor)/@41.2365424,1.812671,17z/data=!4m8!3m7!1s0x12a38171a2a255e9:0xa4b74bec7df53ef2!8m2!3d41.2365424!4d1.812671!9m1!1b1!16s%2Fg%2F11pf29x9y6",
+    reviewsUrl: "https://www.google.com/maps/search/Tanto+Gusto+Sitges",
   },
   {
     name: "Castelldefels",
     rating: 4.8,
     count: 113,
-    reviewsUrl: "https://www.google.com/maps/place/Tanto+Gusto+(comida+con+amor)/@41.2787165,1.977029,17z/data=!4m8!3m7!1s0x12a483486e55a435:0x90c9fe97d808db94!8m2!3d41.2787165!4d1.977029!9m1!1b1!16s%2Fg%2F11w9l30bkz",
+    reviewsUrl: "https://www.google.com/maps/search/Tanto+Gusto+Castelldefels",
   },
   {
     name: "Vielha",
     rating: 4.6,
     count: 421,
-    reviewsUrl: "https://www.google.com/maps/place/Tanto+Gusto+(comida+con+amor)/@42.7031159,0.7935797,17z/data=!4m8!3m7!1s0x12a89b0770236c2b:0x5ec3b4969313ff2b!8m2!3d42.7031159!4d0.7935797!9m1!1b1!16s%2Fg%2F11tm_f6t55",
+    reviewsUrl: "https://www.google.com/maps/search/Tanto+Gusto+Vielha",
   },
 ];
 
