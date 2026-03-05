@@ -195,26 +195,6 @@ export default function Reviews() {
           ))}
         </div>
 
-        <div className="mt-10 flex justify-center">
-          <a
-            href="https://www.google.com/search?q=%22Tanto+Gusto+comida+con+amor%22+opiniones"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-border-subtle bg-white px-6 py-3 text-sm font-semibold text-text-primary shadow-sm transition-all hover:border-green hover:text-green"
-          >
-            Ver todas las reseñas en Google
-            <svg
-              className="h-4 w-4"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </a>
-        </div>
       </div>
     </section>
   );
