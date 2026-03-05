@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Locations from "@/components/Locations";
 import About from "@/components/About";
+import Reviews from "@/components/Reviews";
 import Instagram from "@/components/Instagram";
 import OrderCTA from "@/components/OrderCTA";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Locations />
         <About />
+        <Reviews />
         <Instagram />
         <OrderCTA />
       </main>
