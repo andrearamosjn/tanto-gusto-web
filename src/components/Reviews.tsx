@@ -197,7 +197,7 @@ export default function Reviews() {
 
         <div className="mt-10 flex justify-center">
           <a
-            href="https://www.google.com/search?q=Tanto+Gusto+opiniones"
+            href="https://www.google.com/search?q=%22Tanto+Gusto+comida+con+amor%22+opiniones"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-border-subtle bg-white px-6 py-3 text-sm font-semibold text-text-primary shadow-sm transition-all hover:border-green hover:text-green"
