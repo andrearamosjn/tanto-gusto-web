@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Metadata } from "next";
 import Header from "@/components/Header";
 import Menu from "@/components/Menu";
@@ -14,7 +15,9 @@ export default function CartaPage() {
     <>
       <Header />
       <main>
-        <Menu />
+        <Suspense>
+          <Menu />
+        </Suspense>
       </main>
       <Footer />
     </>
