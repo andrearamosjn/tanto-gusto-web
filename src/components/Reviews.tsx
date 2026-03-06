@@ -139,7 +139,7 @@ export default function Reviews() {
           <div className="flex flex-col items-center gap-4 mt-2">
             <div className="flex items-center gap-6">
               <a
-                href="https://www.google.com/maps/search/Tanto+Gusto+comida+con+amor"
+                href="https://www.google.com/search?q=Tanto+Gusto+comida+con+amor+opiniones"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 transition-colors hover:opacity-80"
@@ -219,7 +219,7 @@ export default function Reviews() {
 
         <div className="mt-10 flex justify-center">
           <a
-            href="https://www.google.com/maps/search/Tanto+Gusto+comida+con+amor"
+            href="https://www.google.com/search?q=Tanto+Gusto+comida+con+amor+opiniones"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-border-subtle bg-white px-6 py-3 text-sm font-semibold text-text-primary shadow-sm transition-all hover:border-green hover:text-green"
