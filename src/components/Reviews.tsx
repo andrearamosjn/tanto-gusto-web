@@ -138,14 +138,19 @@ export default function Reviews() {
           </h2>
           <div className="flex flex-col items-center gap-4 mt-2">
             <div className="flex items-center gap-6">
-              <div className="flex items-center gap-1.5">
+              <a
+                href="https://www.google.com/maps/search/Tanto+Gusto+comida+con+amor"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 transition-colors hover:opacity-80"
+              >
                 <GoogleIcon className="h-6 w-6" />
                 <span className="text-xl font-bold text-text-primary">{avgRating}</span>
                 <Stars count={Math.round(Number(avgRating))} />
                 <span className="text-xs text-text-tertiary">
                   {totalReviews.toLocaleString("es-ES")}+ reseñas
                 </span>
-              </div>
+              </a>
               <div className="h-5 w-px bg-border-subtle" />
               <a
                 href="https://www.tripadvisor.es/Restaurant_Review-g187502-d23882821-Reviews-Tanto_Gusto_Sitges-Sitges_Catalonia.html"
