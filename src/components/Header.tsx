@@ -7,6 +7,7 @@ import { createPortal } from "react-dom";
 
 const navLinks = [
   { label: "Locales", href: "/#locales" },
+  { label: "Carta", href: "/carta" },
   { label: "Nosotros", href: "/#nosotros" },
   { label: "Contacto", href: "/#contacto" },
 ];
